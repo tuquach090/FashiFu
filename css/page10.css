@@ -1,0 +1,10 @@
+.banner-game{
+    height: 125px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.banner-game .left , .banner-game .right{
+    height: 125px;
+    top: 0px;
+}
