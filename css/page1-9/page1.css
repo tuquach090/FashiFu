@@ -1,0 +1,204 @@
+#page1-9 {
+    background-color: #fff;
+    padding: 28px 51px 100px;
+    width: 96%;
+    margin: 0 auto;
+    transform: translate(0, -25px);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #010101;
+}
+
+#page1-9 .title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+#page1-9 .list-wallets {
+    margin-bottom: 30px;
+}
+
+#page1-9 .list-wallets ul {
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    padding: 0 0 4px 2px;
+}
+
+#page1-9 .content-detail .amount-select::-webkit-scrollbar,
+#page1-9 .list-wallets ul::-webkit-scrollbar {
+    display: none;
+}
+
+#page1-9 .list-wallets .wallet-item {
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px #00000029;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#page1-9 .list-wallets li {
+    margin-right: 30px;
+}
+
+#page1-9 .list-wallets li:last-child {
+    margin-right: 0;
+}
+
+#page1-9 .list-wallets .wallet-name {
+    color: #DC1E2D;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#page1-9 .list-wallets .wallet-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page1-9 .list-wallets .wallet-info .icon {
+    width: 26px;
+    height: 18px;
+}
+
+#page1-9 .list-wallets .wallet-info .icon .arrow-up {
+    display: none;
+}
+
+#page1-9 .list-wallets .wallet-detail-wp {
+    position: relative;
+    padding: 82% 0;
+    display: none;
+}
+
+#page1-9 .list-wallets li.active .wallet-detail-wp {
+    display: block;
+}
+
+#page1-9 .list-wallets li.active .icon .arrow-up {
+    display: block;
+}
+
+#page1-9 .list-wallets li.active .icon .arrow-down {
+    display: none;
+}
+
+#page1-9 .list-wallets .wallet-detail {
+    margin-top: 10px;
+    width: 388px;
+    box-shadow: 0 2px 4px #00000029;
+    padding: 20px 18px 30px 20px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    background-color: #fff;
+}
+
+#page1-9 .list-wallets li:last-child .wallet-detail {
+    right: 0;
+}
+
+#page1-9 .list-wallets .wallet-detail hr {
+    border: 1px solid #505050;
+}
+
+#page1-9 .list-wallets .wallet-detail .wallet-detail-content .wallet-detail-content-item {
+    margin-bottom: 30px;
+}
+
+#page1-9 .list-wallets .wallet-detail .wallet-detail-content .wallet-detail-content-item:last-child {
+    margin-bottom: 0;
+}
+
+#page1-9 .d-flex {
+    display: flex;
+}
+
+#page1-9 .mb-10 {
+    margin-bottom: 10px;
+}
+
+#page1-9 .text-bold {
+    font-weight: bold;
+}
+
+#page1-9 .justify-content-between {
+    justify-content: space-between;
+}
+
+#page1-9 .content-detail .content-detail-item .form-group label {
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #DC1E2D;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#page1-9 .content-detail .content-detail-item .form-group .form-control {
+    border: 2px solid #010101;
+    padding: 10px 20px;
+    height: unset;
+    color: #010101;
+}
+
+#page1-9 .content-detail .content-detail-item .form-group .form-control::-webkit-input-placeholder,
+#page1-9 .content-detail .content-detail-item .form-group .form-control::placeholder {
+    color: #010101;
+}
+
+#page1-9 .content-detail .amount-select {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#page1-9 .content-detail .amount-select .amount-select-item {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #FFD441;
+    font-weight: bold;
+    width: 160px;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#page1-9 .content-detail .content-detail-item {
+    margin-bottom: 30px;
+}
+
+#page1-9 .content-detail .content-detail-item:last-child {
+    margin-bottom: 0;
+}
+
+#page1-9 .content-detail .amount-select .amount-select-item:last-child {
+    margin-right: 0;
+}
+
+#page1-9 .text-center {
+    text-align: center;
+}
+
+#page1-9 .btn-submit {
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+    background: #DC1E2D;
+    color: #fff;
+    font-weight: bold;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 50px;
+}
+
+#page1-9 .btn-submit:hover {
+    background: #c51322;
+}

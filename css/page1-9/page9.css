@@ -1,0 +1,39 @@
+#page1-9 .withdrawal-condition {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #00000033;
+    padding: 20px 33px 20px 20px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#page1-9 .withdrawal-condition .wc-content .wc-content-middle {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#page1-9 .withdrawal-condition .wc-content .wc-content-bottom {
+    font-weight: bold;
+    color: #DC1E2D;
+}
+
+#page1-9 .withdrawal-condition .wc-content div {
+    margin-bottom: 10px;
+}
+
+#page1-9 .withdrawal-condition .wc-content div:last-child {
+    margin-bottom: 0;
+}
+
+#page1-9 .content-detail .content-detail-item .form-group .form-control:disabled {
+    background: #505050;
+    font-weight: bold;
+    color: #fff;
+}
+
+#page1-9 .content-detail .content-detail-item .note p {
+    font-size: 14px;
+    color: #505050;
+    line-height: 17px;
+    margin: 0;
+}

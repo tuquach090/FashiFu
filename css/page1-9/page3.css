@@ -1,0 +1,112 @@
+#page1-9 .wp-tabs {
+    margin-bottom: 30px;
+}
+
+#page1-9 .wp-tabs .tabs {
+    box-shadow: 0 3px 6px #00000033;
+    border-radius: 5px;
+}
+
+#page1-9 .wp-tabs .tabs .tab-item {
+    padding: 10px 20px;
+    width: 194px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#page1-9 .wp-tabs .tabs .tab-item.active {
+    background: #DC1E2D;
+    color: #fff;
+}
+
+#page1-9 .wp-tabs .btn-trash {
+    background: #FFD441;
+    padding: 6px 31px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all .3s;
+}
+
+#page1-9 .wp-tabs .btn-trash:hover {
+    background: #f4c529;
+}
+
+#page1-9 .wp-tabs .btn-trash i {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+#page1-9 .content-detail .search-box .form-group {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #010101;
+}
+
+#page1-9 .content-detail .search-box .form-group .form-control {
+    border: none;
+}
+
+#page1-9 .content-detail .search-box .form-group .btn-append {
+    background: none;
+    border: none;
+    padding: 10px 38px;
+    font-size: 18px;
+}
+
+#page1-9 .content-detail .search-box .form-group .btn-append:hover {
+    background: #f3f3f3;
+}
+
+#page1-9 .content-detail .content-detail-inbox {
+    color: #505050;
+    padding: 18px 30px;
+    border-bottom: 1px solid #505050;
+}
+
+#page1-9 .content-detail .content-detail-inbox .input-checkbox {
+    margin-right: 12px;
+    padding: 7px;
+    border: 1px solid #010101;
+    border-radius: 50%;
+    height: 20%;
+    margin-top: 2px;
+}
+
+#page1-9 .mw-100 {
+    min-width: 100%;
+}
+
+#page1-9 .content-detail .content-detail-inbox .messages-detail .messages-head {
+    margin-bottom: 10px;
+}
+
+#page1-9 .content-detail .content-detail-inbox .input-checkbox,
+#page1-9 .content-detail .content-detail-inbox .messages-detail .messages-head .mh-tilte {
+    cursor: pointer;
+}
+
+#page1-9 .content-detail .content-detail-inbox .messages-detail .messages-desc {
+    white-space: nowrap;
+    width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#page1-9 .content-detail .content-detail-inbox.unread {
+    font-weight: bold;
+    color: #010101;
+}
+
+#page1-9 .content-detail .content-detail-inbox.checked {
+    background: #505050;
+    color: #fff;
+}
+
+#page1-9 .content-detail .content-detail-inbox.checked .input-checkbox {
+    background: #FFD441;
+}

@@ -18,6 +18,35 @@ img {
 }
 
 
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #010101;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #d2d2d2;
+}
+
+
 /*-------------Header Start---------------------*/
 
 ol,
@@ -1403,4 +1432,8 @@ input:checked+.slider:before {
 .main-content {
     margin-left: 50px;
     width: 1280px;
+}
+
+.wp-sidebar-left {
+    /* overflow-x: scroll; */
 }

@@ -13,6 +13,9 @@
     <link href="slider/owl.carousel.css" rel="stylesheet">
     <link href="slider/owl.theme.css" rel="stylesheet">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Page 1 - 9 Style & responsive -->
+    <link rel="stylesheet" href="css/page1-9/page1-9-import.css?v=<?php echo time() ?>">
+    <!-- Page 1 - 9 Style & responsive -->
 </head>
 
 <body>

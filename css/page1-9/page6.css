@@ -1,0 +1,90 @@
+#page1-9 .wp-sort {
+    border: 1px solid #010101;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+#page1-9 .wp-sort hr {
+    margin: 30px 0;
+    border: 1px solid #505050;
+}
+
+#page1-9 .wp-sort .title {
+    color: #DC1E2D;
+    margin-bottom: 13px;
+}
+
+#page1-9 .radio-custom {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 200;
+}
+
+#page1-9 .radio-custom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#page1-9 .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #010101;
+}
+
+#page1-9 .radio-custom:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+#page1-9 .radio-custom input:checked~.checkmark {
+    background-color: #FFD441;
+}
+
+#page1-9 .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#page1-9 .radio-custom input:checked~.checkmark:after {
+    display: block;
+}
+
+#page1-9 .select-group .form-group {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid #010101;
+    border-radius: 5px;
+    padding: 1.67px 32px;
+    margin-bottom: 20px;
+}
+
+#page1-9 .select-group .form-group:last-child {
+    margin-bottom: 0;
+}
+
+#page1-9 .select-group .form-group .append-text {
+    font-weight: 500;
+    color: #505050;
+}
+
+#page1-9 .select-group .form-group .form-control {
+    width: 100%;
+    text-align: center;
+    color: #010101;
+    border: none;
+    box-shadow: none;
+}

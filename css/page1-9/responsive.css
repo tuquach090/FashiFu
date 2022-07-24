@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+    #page1-9 .wp-tabs .tabs .tab-item {
+        width: 145px;
+    }
+    #page1-9 .wp-tabs .tabs-2 {
+        flex-wrap: wrap;
+    }
+    #page1-9 .wp-tabs .tabs-2 .tab-item {
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #page1-9 .wp-tabs .tabs .tab-item {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #page1-9 {
+        padding: 28px 20px 100px;
+    }
+    #page1-9 .wp-tabs {
+        flex-wrap: wrap;
+    }
+    #page1-9 .wp-tabs .tabs .tab-item {
+        width: 50%;
+    }
+    #page1-9 .wp-tabs .tabs {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #page1-9 .wp-tabs .btn-trash {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #page1-9 .content-detail .history .messages-detail .messages-desc {
+        flex-wrap: wrap;
+    }
+    #page1-9 .content-detail .history .messages-desc .amount {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

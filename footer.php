@@ -291,25 +291,76 @@
 
 
         $(document).on("click", ".btn-show-sidebar", function() {
-            $(this).css({
+            let bodyWidth = $("body").width();
+            let _this = $(this);
+            $(_this).css({
                 width: "100%"
             }).removeClass("btn-show-sidebar").addClass("btn-hide-sidebar");
             $(this).find("i").removeClass("fa-bars").addClass("fa-xmark");
-            $(this).parents(".sidebar-left").animate({
-                left: 0
-            }, 'slow');
-        })
+            if (bodyWidth <= 414) {
+                $(this).parents(".sidebar-left").animate({
+                    left: 0,
+                    width: "100%",
+                }, 'slow').animate({
+                    top: 0,
+                    "overflow-x": "scroll"
+                }, "slow");
+            } else {
+                $(this).parents(".sidebar-left").animate({
+                    left: 0,
+                }, 'slow');
+            }
+
+        });
 
         $(document).on("click", ".btn-hide-sidebar", function() {
-
+            let bodyWidth = $("body").width();
             $(this).find("i").removeClass("fa-xmark").addClass("fa-bars");
-            $(this).parents(".sidebar-left").animate({
-                left: "-300px",
-            }, 'slow');
-            $(this).css({
-                width: "120%"
-            }).removeClass("btn-hide-sidebar").addClass("btn-show-sidebar");
+            let _this = $(this);
+            if (bodyWidth <= 414) {
+                $(this).parents(".sidebar-left").animate({
+                    top: "14%",
+                }, 'slow').animate({
+                    width: "300px",
+                    left: "-300px"
+                }, "slow", () => {
+                    $(_this).css({
+                        width: "120%"
+                    }).removeClass("btn-hide-sidebar").addClass("btn-show-sidebar");
+                })
+            } else {
+                $(_this).css({
+                    width: "120%"
+                }).removeClass("btn-hide-sidebar").addClass("btn-show-sidebar");
+                $(this).parents(".sidebar-left").animate({
+                    left: "-300px",
+                }, "slow");
+            }
+
+
+        });
+
+        $(document).on("click", "#page1-9 .wallet-item", function() {
+            $(".list-wallets ul .wallet-item-wp").removeClass("active");
+            $(this).parent("li").addClass("active");
+        });
+
+        $(document).on("click", "#page1-9 .wallet-item-wp.active", function() {
+            $(".list-wallets ul .wallet-item-wp").removeClass("active");
+        });
+
+        $(document).on("click", "#page1-9 .tab-item", function() {
+            $("#page1-9 .wp-tabs div .tab-item").removeClass("active")
+            $(this).addClass("active");
+        });
+
+        $(document).on("click", "#page1-9 .jquery-click", function() {
+            $(this).addClass("checked");
         })
+        $(document).on("click", "#page1-9 .jquery-click.checked", function() {
+            $(this).removeClass("checked");
+        })
+
 
     });
 </script>

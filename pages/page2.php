@@ -5,7 +5,7 @@
 
     <div class="list-wallets">
         <ul>
-            <li class="wallet-item-wp">
+            <li class="wallet-item-wp active">
                 <div class="wallet-item">
                     <div class="wallet-name">
                         Sports Wallet

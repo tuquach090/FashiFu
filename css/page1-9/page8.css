@@ -1,0 +1,50 @@
+#page1-9 .content-detail .card-bank .bank-icon {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #888888;
+}
+
+#page1-9 .content-detail .card-bank {
+    max-width: 388px;
+    background: #C4C4C4;
+    padding: 20px 20px 28px;
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+
+#page1-9 .content-detail .card-bank .bank-info .bank-name {
+    padding-right: 30px;
+    border-right: 1px solid #010101;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+#page1-9 .content-detail .card-bank .bank-info .bank-code {
+    padding-left: 20px;
+}
+
+#page1-9 .content-detail .card-bank .body-card .body-card-item {
+    margin-bottom: 30px;
+}
+
+#page1-9 .content-detail .card-bank .body-card .body-card-item:last-child {
+    margin-bottom: 0;
+}
+
+#page1-9 .content-detail .card-bank .body-card .body-card-item .card-item-detail {
+    margin-top: 8px;
+}
+
+#page1-9 .content-detail .content-detail-item-text p {
+    padding: 15px 0px;
+    color: #505050;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#page1-9 .content-detail .content-detail-item-text a {
+    font-weight: bold;
+    color: #DC1E2D;
+    text-decoration: underline;
+}

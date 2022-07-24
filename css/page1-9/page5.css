@@ -1,0 +1,73 @@
+#page1-9 .wp-tabs .tabs-2 {
+    box-shadow: 0 3px 6px #00000033;
+    border-radius: 5px;
+}
+
+#page1-9 .wp-tabs .tabs-2 .tab-item {
+    padding: 0 30px;
+    margin: 11px 0 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    border-right: 1px solid #888888;
+    display: flex;
+    align-items: center;
+}
+
+#page1-9 .wp-tabs .tabs-2 .tab-item:last-child {
+    border: none;
+}
+
+#page1-9 .wp-tabs .tabs-2 .tab-item.active {
+    background: #DC1E2D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 30px 10px;
+    margin: 0;
+    border: none;
+}
+
+#page1-9 .content-detail .history {
+    color: #010101;
+}
+
+#page1-9 .content-detail .history .messages-detail .messages-desc {
+    white-space: normal;
+    width: 100%;
+}
+
+#page1-9 .content-detail .history .messages-desc .time {
+    color: #505050;
+}
+
+#page1-9 .content-detail .history .messages-desc .amount {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#page1-9 .mh-600 {
+    min-height: 600px;
+}
+
+#page1-9 .pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-9 .pagination .pagination-item {
+    font-size: 18px;
+    line-height: 22px;
+    color: #505050;
+    padding: 20px 30px;
+}
+
+#page1-9 .pagination .pagination-item.active {
+    color: #DC1E2D;
+}
+
+#page1-9 .flex-wrap {
+    flex-wrap: wrap;
+}
