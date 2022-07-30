@@ -2,6 +2,11 @@
     border: 1px solid #010101;
     border-radius: 5px;
     padding: 30px 20px;
+    display: none;
+}
+
+#page1-9 .wp-sort.active {
+    display: block;
 }
 
 #page1-9 .wp-sort hr {

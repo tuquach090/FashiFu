@@ -20,9 +20,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="slider/owl.carousel.js"></script>
-
-
-
+<script src="js/bootrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 <script>
     (function($) {
         $.fn.menumaker = function(options) {
@@ -260,6 +258,11 @@
 
 <script>
     $(document).ready(function() {
+        $('#page1-9 .date-picker').datepicker({
+            format: "d M yyyy",
+            maxViewMode: 2,
+            orientation: "bottom auto"
+        });
 
         var owl = $("#owl-demo4");
 
@@ -353,16 +356,50 @@
             $("#page1-9 .wp-tabs div .tab-item").removeClass("active")
             $(this).addClass("active");
         });
+        $(document).on("click", "#page16-18 .sidebar-left-body ul li", function() {
+            $("#page16-18 .sidebar-left-body ul li").removeClass("active")
+            $(this).addClass("active");
+        });
 
+
+        $(document).on("click", "#page10-18 .tab-item", function() {
+            $("#page10-18 .wp-tabs div .tab-item").removeClass("active")
+            $(this).addClass("active");
+        });
+        $(document).on("click", "#page16-18 .tab-item", function() {
+            $("#page16-18 .wp-tabs div .tab-item").removeClass("active")
+            $(this).addClass("active");
+        });
         $(document).on("click", "#page1-9 .jquery-click", function() {
             $(this).addClass("checked");
         })
         $(document).on("click", "#page1-9 .jquery-click.checked", function() {
             $(this).removeClass("checked");
+        });
+        $(document).on("click", "#page1-9 .btn-select-date", function() {
+            $("#page1-9 .wp-sort").toggleClass("active");
         })
 
 
     });
+    var btnCopyName = document.querySelector('.btn-copy-name')
+    btnCopyName.onclick = function() {
+        clickToCopy(document.querySelector('.input-name').value)
+    }
+
+    var btnCopyNumber = document.querySelector('.btn-copy-number')
+    btnCopyNumber.onclick = function() {
+        clickToCopy(document.querySelector('.input-number').value)
+    }
+
+    function clickToCopy(text) {
+        let input = document.createElement('input') // tạo thẻ input giả
+        document.body.appendChild(input) // gán thẻ đó vào bất kì đâu (sao cho không bị ảnh hướng layout nào là được)
+        input.value = text // gán giá trị vào input
+        input.select() // focus vào input
+        document.execCommand('copy') // dùng lệnh này để copy text từ input
+        input.remove() // sau đó xóa thẻ
+    }
 </script>
 <script src="js/app.js"></script>
 

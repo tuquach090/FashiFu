@@ -71,3 +71,19 @@
 #page1-9 .flex-wrap {
     flex-wrap: wrap;
 }
+
+#page1-9 .content-detail .search-box button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    transform: all .3s;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#page1-9 .content-detail .search-box button:hover {
+    background: #f5f5f5;
+}

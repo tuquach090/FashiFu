@@ -1,0 +1,18 @@
+#page16-18 .mb-3{
+    margin-bottom: 24px;
+}
+#page16-18>.content-main>.block-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#page16-18>.content-main p{
+    font-size: 16px;
+}
+#page16-18>.content-main>.block-title>.title{
+    color: #DC1E2D;
+    font-weight: bold;
+    margin-left: 34px;
+    font-size: 16px;
+}

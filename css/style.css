@@ -1195,10 +1195,17 @@ ul>li.active>a {
 
 #content .container-fluid {
     display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#content .container-fluid::after {
+    clear: none;
 }
 
 .sidebar-left {
-    width: 390px;
+    width: 25%;
 }
 
 .sidebar-left .btn-sidebar {
@@ -1431,9 +1438,13 @@ input:checked+.slider:before {
 
 .main-content {
     margin-left: 50px;
-    width: 1280px;
+    width: 75%;
 }
 
 .wp-sidebar-left {
     /* overflow-x: scroll; */
+}
+
+body .container-fluid {
+    max-width: 1920px;
 }

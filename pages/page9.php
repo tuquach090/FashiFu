@@ -17,10 +17,29 @@
 					100 / 1,000
 				</div>
 			</div>
-			<div class="wc-icon">
+			<button class="wc-icon" style="background:none;border:none;" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
 				<img src="images/arrow-down/arrow-down.png" class="img-fluid" alt="">
-			</div>
+			</button>
 		</div>
+		<div id="collapseOne" class="collapse mt-3" aria-labelledby="headingOne"
+                        data-parent="#accordion">
+			<div class="card-body">
+				<div class="promotion">
+					<p>{Promotion name here} Welcome Bonus</p>
+					<span>100/ 1,000</span>
+				</div>
+				<div class="promotion">
+					<p>{Promotion name here} Welcome Bonus</p>
+					<span>800/ 1,000</span>
+				</div>
+				<div class="promotion">
+					<p>{Promotion name here} Welcome Bonus</p>
+					<span>2,800/ 8,000</span>
+				</div>
+			</div>
+        </div>
+
 
 		<div class="content-detail-item">
 			<div class="form-group">

@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact-us/style.css">
     <link rel="stylesheet" href="css/model/style.css">
+    <link rel="stylesheet" href="js/bootrap-datepicker/css/bootstrap-datepicker3.min.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="slider/owl.carousel.css" rel="stylesheet">
     <link href="slider/owl.theme.css" rel="stylesheet">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Page 1 - 9 Style & responsive -->
     <link rel="stylesheet" href="css/page1-9/page1-9-import.css?v=<?php echo time() ?>">
-    <!-- Page 1 - 9 Style & responsive -->
+    <!-- Page 10 - 18 Style & responsive -->
+    <link rel="stylesheet" href="css/page10-18/page10-18-import.css?v=<?php echo time() ?>">
+
 </head>
 
 <body>
@@ -40,7 +44,7 @@
                                 <li <?php if ($page == 'page10') echo "class='active'" ?>><a href='?page=page10'>Sports</a></li>
                                 <li <?php if ($page == 'page9') echo "class='active'" ?>><a href='?page=page9'>Live casino</a></li>
                                 <li <?php if ($page == 'page11') echo "class='active'" ?>><a href='?page=page11'>Slots</a></li>
-                                <li <?php if ($page == 'page12') echo "class='active'" ?>><a href='?page=page12'>4D</a></li>
+                                <li <?php if ($page == 'page18') echo "class='active'" ?>><a href='?page=page18'>4D</a></li>
                                 <li><a href='#'>FISHING</a></li>
                                 <li class="promotion"><a href='#'>PROMOTIONS</a></li>
                                 <div class="bottom-header login-mobile">
@@ -116,14 +120,24 @@
     <div id="content">
         <div class="container-fluid">
             <!-- Sidebar -->
-            <?php require "sidebar-left.php"; ?>
+            <?php 
+                if($page == 'page16' || $page == 'page17' || $page == 'page18'){
+                    echo "";
+                }else{
+                    require "sidebar-left.php";
+                }
+            ?>
 
             <!-- Main-content -->
             <div class="main-content">
 
             <!-- header main-content -->
-                <?php require "informations.php" ?>
-
+                <?php if($page == 'page16' || $page == 'page17' || $page == 'page18'){
+                    echo "";
+                }else{
+                    require "informations.php";
+                }  ?>
+                
                 <div class="content-body">
                     
                 <!-- required any Page here -->

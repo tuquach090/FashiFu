@@ -1,0 +1,182 @@
+#page10-18 {
+    position: relative ;
+    background-color: #fff;
+    padding: 28px 51px 100px;
+    width: 96%;
+    margin: 0 auto;
+    transform: translate(0, -25px);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    min-height: 1000px;
+    color: #010101;
+}
+#page16-18{
+    display: flex;
+    background-color: #fff;
+    padding: 28px 51px 100px;
+    width: 138%;
+    margin: 0 auto;
+    transform: translate(0, -25px);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    min-height: 1000px;
+    color: #010101;
+}
+#page10-18 .element1,#page10-18 .element1-1,#page10-18 .element2,#page10-18 .element3,#page10-18 .element2-1{
+    position: absolute;
+    z-index: -1;
+}
+#page10-18 .element1{
+    top: 100px;
+    right: 16px;
+}
+#page10-18 .element1-1{
+    top: 380px;
+    left: 700px;
+}
+#page10-18 .element2{
+    top: 60px;
+    right: 25px;
+}
+#page10-18 .element2-1{
+    top: 400px;
+    left: 700px;
+}
+#page10-18 .element3{
+    top: 376px;
+    right: 10px;
+}
+#page10-18 .font-weight-bold{
+    font-weight: bold;
+}
+#page10-18 .d-flex,#page16-18 .d-flex{
+    display: flex;
+}
+#page10-18 .justify-content-between,#page16-18 .justify-content-between{
+    justify-content: space-between;
+}
+#page10-18 .align-items-center,#page16-18 .align-items-center{
+    align-items: center;
+}
+#page10-18 .mb-2{
+    margin-bottom: 14px;
+}
+#page10-18 .mb-3{
+    margin-bottom: 24px;
+}
+#page10-18 .mt-2{
+    margin-top: 12px;
+}
+#page10-18>.title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+#page10-18 .promo .block-title{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#page10-18 .promo .block-title .title{
+    color: #DC1E2D;
+    font-size: 20px;
+}
+
+#page10-18 .promo .promo-main{
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+#page10-18 .promo .promo-main .earn{
+    flex-basis: 60%;
+}
+#page10-18 .promo .promo-main .earn{
+    position: relative;
+    display: flex;
+}
+#page10-18 .promo .promo-main .earn .total-earn{
+    position: absolute;
+    left: 300px;
+}
+#page10-18 .promo .promo-main .earn .total-earn .block-total{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 300px;
+}
+#page10-18 .promo .promo-main .earn .total-earn .block-total .title{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#page10-18 .promo .promo-main .earn .total-earn .block-total .number{
+    font-size: 46px;
+}
+#page10-18 .promo .promo-main .refer{
+    flex-basis: 40%;
+    margin-left: 30px;
+}
+#page10-18 .promo .promo-main .refer .code-refer{
+    display: flex;
+}
+#page10-18 .promo .promo-main .refer .code-refer .code{
+    padding: 10px 20px;
+    background-color: #010101;
+    color: #ffff;
+    border-radius: 5px;
+}
+#page10-18 .promo .promo-main .refer .code-refer .code span{
+    color: #FFD441;
+    margin-left: 10px;
+}
+#page10-18 .promo .promo-main .refer .code-refer a{
+    padding: 10px 50px;
+    margin-left: 20px;
+    background-color: #DC1E2D;
+    border-radius: 5px;
+    color: #ffff;
+}
+#page10-18 .promo .promo-main .refer .info-refer, #page10-18 .promo .info-refer-other .info-refer,#page10-18 .promo .info-refer-other>.title{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#page10-18 .promo .promo-main .refer .info-refer .title,#page10-18 .promo .info-refer-other .info-refer .title,#page10-18 .promo .info-refer-other>.title .title-1{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+#page10-18 .promo .promo-main .refer .info-refer .number, #page10-18 .promo .info-refer-other .info-refer .number,#page10-18 .promo .info-refer-other>.title .title-2{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#FF9A5B, #EC5048);
+    border-radius: 5px;
+    color: #ffff;
+
+}
+#page10-18 .promo .info-refer-other{
+    margin-top: 30px;
+    margin-right:100px;
+}
+#page10-18 .promo .info-refer-other>.title{
+    margin-bottom: -30px;
+}
+#page10-18 .promo .info-refer-other>.title .title-1{
+    box-shadow: none;
+}
+#page10-18 .promo .info-refer-other>.title .title-2{
+    background: none;
+    color: #010101;
+}

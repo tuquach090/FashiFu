@@ -1,0 +1,75 @@
+#page10-18>.levels{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 21px;
+}
+#page10-18>.levels .level>p{
+	margin-top: 10px;
+    font-size: 16px;
+}
+#page10-18>.levels .level>img{
+    width: 50px;
+    height: 50px;
+}
+#page10-18>.levels .line{
+	width: 30px;
+	height: 5px;
+	background-color: #010101;
+	border-radius: 2px;
+	margin-left: 4px;
+	margin-right: 8px;
+	margin-bottom: 40px;
+	
+}
+#page10-18>.levels .level.current p{
+	color:#DC1E2D;
+	font-weight: bold;
+}
+#page10-18>.levels .level.current + .line{
+	margin-left: 0px;
+}
+
+/* cardLevel */
+#page10-18>.cardLevel{
+    margin-top: 30px;
+}
+#page10-18>.cardLevel .card-header{
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid grey;
+    background-color: #ffff;
+    padding: 21px 0px;
+}
+#page10-18>.cardLevel .card-header p{
+    margin-bottom: 0px !important;
+}
+#page10-18>.cardLevel .card-header p,#page10-18 .card-body .requirement h2,#page10-18>.cardLevel .card-body .privileges h2{
+	font-weight: bold;
+	color: #DC1E2D;
+    font-size: 16px;
+}
+#page10-18>.cardLevel .card-body{
+    padding: 20px 0px;
+}
+#page10-18>.cardLevel .card-body .requirement ul li span,#page10-18>.cardLevel .card-body .privileges ul li span,#page10-18>.cardLevel .privileges ul li span{
+	font-weight: bold;
+    font-size: 16px;
+}
+#page10-18>.cardLevel .card-body .requirement ul li p,#page10-18>.cardLevel .card-body .privileges ul li p,#page10-18>.cardLevel .privileges ul li p{
+    font-size: 16px;
+}
+#page10-18>.cardLevel .card-body .requirement h2,#page10-18>.cardLevel .card-body .privileges h2{
+	margin-bottom: 20px;
+    font-size: 16px;
+}
+#page10-18>.cardLevel .card-body .requirement ul li,#page10-18> .cardLevel .card-body .privileges ul li,#page10-18 .privileges ul li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6px;
+}
+#page10-18>.cardLevel .card-body .privileges{
+	margin-top: 38px;
+}

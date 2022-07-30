@@ -24,16 +24,16 @@
     </div>
 
 
+
     <div class="content-detail mh-600">
         <div class="content-detail-item search-box">
             <div class="form-group">
-                <select name="" class="form-control" id="">
-                    <option value="">This Month</option>
-                </select>
+                <button type="button" class="btn-select-date">This Month <i class="fa-solid fa-chevron-down"></i></button>
+
             </div>
         </div>
 
-        <div class="wp-sort">
+        <div class="wp-sort active">
             <div class="date">
                 <div class="title">
                     Date
@@ -64,22 +64,20 @@
                     Choose date range
                 </div>
 
-                <div class="form-group">
+                <div class="form-group"> 
                     <div class="append-text">
                         Start
                     </div>
-                    <select class="form-control" name="" id="">
-                        <option value="">10 Apr 2022 00:00:00</option>
-                    </select>
+                    <input type="text" class="form-control date-picker" data-toggle="datepicker" value="10 Apr 2022 00:00:00">
+                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
 
                 <div class="form-group">
                     <div class="append-text">
                         End
                     </div>
-                    <select class="form-control" name="" id="">
-                        <option value="">22 Jun 2022 00:00:00</option>
-                    </select>
+                    <input type="text" class="form-control date-picker" data-toggle="datepicker" value="22 Jun 2022 00:00:00">
+                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
             </div>
 

@@ -1,0 +1,154 @@
+#page16-18>.sidebar>.creadit{
+    padding: 20px 31px 20px 20px;
+    background-color: #505050;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#page16-18>.sidebar>.creadit>span{
+    margin-left: 30px;
+}
+#page16-18>.content-main>.chooseDate,#page16-18>.content-main>.chooseGame{
+    margin-bottom: 40px;
+}
+#page16-18>.content-main>.chooseDate>.title,#page16-18>.content-main>.chooseGame>.title{
+    font-size: 18px;
+    color: #DC1E2D;
+    font-weight: bold;
+    margin-bottom: 31px;
+}
+#page16-18>.content-main>.chooseGame>.list-game{
+    display: flex;
+}
+#page16-18>.content-main>.chooseGame>.list-game>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+#page16-18>.content-main>.chooseGame>.list-game>a>img{
+    width: 60px;
+    height: 60px;
+}
+#page16-18  .wp-tabs {
+    margin-bottom: 30px;
+}
+#page16-18  .wp-tabs .tabs-2 {
+    box-shadow: 0 3px 6px #00000033;
+    border-radius: 5px;
+}
+
+#page16-18  .wp-tabs .tabs-2 .tab-item {
+    padding: 0 20px;
+    margin: 11px 0 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    border-right: 1px solid #888888;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#page16-18  .wp-tabs .tabs-2 .tab-item:last-child {
+    border: none;
+}
+
+#page16-18  .wp-tabs .tabs-2 .tab-item.active {
+    background: #DC1E2D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 30px 10px;
+    margin: 0;
+    border: none;
+}
+#page16-18>.content-main>table{
+    width: 100%;
+}
+#page16-18>.content-main>table>thead>tr>th{
+    text-align: center;
+    color: #DC1E2D;
+    font-weight: bold;
+}
+#page16-18>.content-main>table>tbody>tr>td{
+    text-align: center;
+    padding: 20px;
+}
+#page16-18>.content-main>table>tbody>tr>td>input[type="number"]{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #010101;
+}
+#page16-18>.content-main>table>tbody>tr>td:nth-child(5){
+    display: flex;
+}
+#page16-18>.content-main>table>tbody>tr>td>a.type,#page16-18>.content-main>table>tbody>tr>td>.amount{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD441;
+    color: #010101;
+    font-weight:bold;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#page16-18>.content-main>table>tbody>tr>td>a.type:last-child{
+    margin-right: 0px;
+}
+#page16-18>.content-main>table>tbody>tr>td>.amount{
+    margin-right: 0px;
+    background-color: #505050;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+#page16-18>.content-main>table>tbody>tr>td>a.btn-delete{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+    color: #ffff;
+    border-radius: 5px;
+}
+#page16-18>.content-main>table>tbody>tr>td>a.btn-delete>i{
+    font-size: 26px;
+}
+#page16-18>.content-main>.placeOderder{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+#page16-18>.content-main>.placeOderder>.title{
+    padding: 11px 27px;
+    background-color: #DC1E2D;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#page16-18>.content-main>.placeOderder>.totalAmount{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 27px;
+    background-color: #505050;
+    color: #ffff;
+}
+#page16-18>.content-main>.placeOderder>.totalAmount>span{
+    font-weight: bold;
+}

@@ -1,0 +1,155 @@
+@media screen and (max-width: 1500px) {
+    .login-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /*fixed-social to right */
+    .user-form {
+        float: none;
+    }
+
+    .user-form form {
+        display: block;
+    }
+
+    .notify {
+        margin: 0 !important;
+    }
+
+    .bottom-header {
+        padding: 20px 0px;
+    }
+
+    .login-mobile {
+        display: block;
+    }
+
+    .login-desktop {
+        display: none;
+    }
+
+    #fixed-social {
+        right: 0;
+    }
+
+    /* Form to width 100% */
+    #form-login {
+        width: 100%;
+    }
+
+    input#name,
+    input#pwd,
+    button.login-btn,
+    button.join-btn {
+        width: 100%;
+        padding: 10px 0px;
+        margin-bottom: 10px;
+    }
+
+    /* Fix distance  */
+    .banner-section {
+        padding-top: 10px;
+    }
+
+    .header-date p {
+        margin-top: 10px;
+    }
+
+    .cat-heading h2 {
+        margin-top: 0px;
+    }
+
+    /* Fix Promotion */
+    .promotion img {
+        width: 250px;
+        max-width: 100%;
+    }
+
+    .claim-btn a {
+        text-transform: uppercase;
+        display: inline-block;
+        height: 128px;
+        width: 55px;
+        line-height: 16px;
+        padding: 40px 0;
+    }
+
+    .lucky_number {
+        margin-top: 15px;
+    }
+
+    .lucky_number .board_number {
+        width: 100%;
+    }
+
+    /* btn prev3 and btn next3 push in */
+    .btn.prev3 img {
+        margin-left: 10px;
+    }
+
+    .btn.next3 img {
+        margin-right: 10px;
+    }
+
+    /* Logo  */
+    .tooto-list img {
+        width: 90px;
+    }
+
+    ul.tooto-list li {
+        display: block;
+    }
+
+    /* box of facal jackpot push center */
+    .olympic-p {
+        text-align: center;
+    }
+
+    /* looping-here */
+    .looping-here{
+       width: 100%;
+       margin: 0;
+    }
+    /* .promotion .btn-playNow {
+        width: 100%;
+        left: 100px;
+    } */
+    .promotion{
+        margin-bottom: 15px;
+    }
+    .promotion img {
+        width: 768px;
+    }
+    /* Fix font */
+    footer p {
+        font-size: 10px;
+    }
+
+    #demo2 .owl-wrapper {
+        left: 50px !important;
+    }
+    .user-form-mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #demo2 .owl-wrapper {
+        left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #demo2 .owl-wrapper {
+        left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #demo2 .owl-wrapper {
+        left: 45px !important;
+    }
+}

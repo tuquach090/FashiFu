@@ -1,0 +1,107 @@
+#page10-18>.block-title>.btn-help{
+    padding: 6px 34px;
+    background-color: #FFD441;
+    color: #010101;
+    border-radius: 5px;
+}
+#page10-18 .wp-tabs {
+    margin-bottom: 30px;
+}
+#page10-18 .wp-tabs .tabs-2 {
+    box-shadow: 0 3px 6px #00000033;
+    border-radius: 5px;
+}
+
+#page10-18 .wp-tabs .tabs-2 .tab-item {
+    padding: 0 20px;
+    margin: 11px 0 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    border-right: 1px solid #888888;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#page10-18 .wp-tabs .tabs-2 .tab-item:last-child {
+    border: none;
+}
+
+#page10-18 .wp-tabs .tabs-2 .tab-item.active {
+    background: #DC1E2D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 30px 10px;
+    margin: 0;
+    border: none;
+}
+
+#page10-18  .amount-select {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+#page10-18  .amount-select .amount-select-item {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #FFD441;
+    font-weight: bold;
+    width: 160px;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#page10-18  .amount-select .amount-select-item:last-child {
+    margin-right: 0;
+}
+#page10-18 .btn-submit {
+    width: 97%;
+    margin: 0 auto;
+    display: block;
+    background: #DC1E2D;
+    color: #fff;
+    font-weight: bold;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 50px;
+}
+#page10-18 .content-detail-item .form-group .form-control:disabled {
+    background: #505050;
+    font-weight: bold;
+    color: #fff;
+}
+#page10-18 .btn-submit:hover {
+    background: #c51322;
+}
+#page10-18 .content-detail-item .note p {
+    font-size: 14px;
+    color: #505050;
+    line-height: 17px;
+    margin: 0;
+}
+
+#page10-18 .content-detail-item .form-group label {
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #DC1E2D;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#page10-18 .content-detail-item .form-group .form-control {
+    border: 2px solid #010101;
+    padding: 10px 20px;
+    height: unset;
+    color: #010101;
+}
+
+#page10-18 .content-detail-item .form-group .form-control::-webkit-input-placeholder,
+#page10-18 .content-detail-item .form-group .form-control::placeholder {
+    color: #010101;
+}

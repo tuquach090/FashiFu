@@ -16,7 +16,8 @@
                 <img src="images/transfer/transfer-2x.png" class="img-fluid" alt="">
                 <p>Transfer</p>
             </a>
-            <a href="" class="sidebar-item">
+            <!-- Page 12 and page 11 -->
+            <a href="?page=page11" class="sidebar-item">
                 <img src="images/deposit/deposit-2.png" class="img-fluid" alt="">
                 <p>Deposit</p>
             </a>
@@ -24,7 +25,7 @@
         <div class="sidebar-left-body">
             <ul>
                 <li>
-                    <a href="" class="sidebar-link">
+                    <a href="?page=page13" class="sidebar-link">
                         <div class="text">
                             My Referral
                         </div>
@@ -34,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="sidebar-link">
+                    <a href="?page=page14" class="sidebar-link">
                         <div class="text">
                             My VIP
                         </div>
@@ -44,7 +45,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="sidebar-link">
+                    <a href="?page=page7" class="sidebar-link">
                         <div class="text">
                             Change Password
                         </div>
@@ -54,7 +55,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="sidebar-link">
+                    <!-- Page 5 6 -->
+                    <a href="?page=page6" class="sidebar-link">
                         <div class="text">
                             Transaction History
                         </div>
@@ -64,7 +66,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="sidebar-link">
+                    <!-- Page 8  -->
+                    <a href="?page=page8" class="sidebar-link">
                         <div class="text">
                             Withdrawal Details
                         </div>

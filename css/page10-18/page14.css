@@ -1,0 +1,105 @@
+#page10-18>.block-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#page10-18>.block-title>.title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+#page10-18>.block-title>.vip-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#page10-18>.block-title>.vip-info p{
+    margin-top: 14px;
+    margin-left: 12px;
+    font-size: 14px;
+    color: grey;
+}
+
+#page10-18>.block-card-vip{
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+#page10-18>.block-card-vip .reset{
+    width: 200px;
+    height: 180px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #505050;
+    border-radius: 5px;
+    color: #FFD441;
+}
+#page10-18>.block-card-vip .reset span{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#page10-18>.block-card-vip .card-vip{
+    padding: 30px 20px 45px 20px;
+    margin-left: 50px;
+    width: 388px;
+    height:180px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+#page10-18>.block-card-vip .card-vip>.title{
+    font-size: 18px;
+    color: #010101;
+    margin-bottom: 11px;
+}
+#page10-18>.block-card-vip .card-vip p{
+    font-size: 16px;
+}
+#page10-18>.block-card-vip .card-vip span{
+    font-size: 20px;
+    color: #DC1E2D;
+}
+#page10-18>#special>h2,#page10-18>#privileges>h2{
+    font-size: 18px;
+    color: #DC1E2D;
+}
+
+#page10-18>#special>.special{
+    display: flex;
+    margin-top: 20px;
+}
+#page10-18>#special>.special>.rate{
+    margin-right: 30px;
+}
+#page10-18>#special>.special>.rate>img{
+    margin-right: 10px;
+}
+#page10-18>#special>.special>.rate>span{
+    font-weight: bold;
+}
+#page10-18>#privileges ul{
+    list-style-type: none;
+    width: 450px;
+    margin-top: 20px;
+}
+#page10-18>#privileges ul>li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#page10-18>#privileges ul>li>p{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+#page10-18>#privileges ul>li>span{
+    font-size: 16px;
+    font-weight: bold;
+}

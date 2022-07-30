@@ -33,7 +33,7 @@
         <div class="content-detail-item-text">
             <p>Fa Shi Fu reserves the right to verify that you have access to and control over any bank account for withdrawal you add to your account.</p>
             <p>
-                If you want to replace with a new bank account, kindly get in touch with <a href="">customer care</a>
+                If you want to replace with a new bank account, kindly get in touch with <a href="?page=page9">customer care</a>
             </p>
         </div>
     </div>
